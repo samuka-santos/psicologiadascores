@@ -1,0 +1,15 @@
+TODAS AS PÁGINAS
+    > Principal
+    > Vermelho 🔴
+    > Azul 🔵
+    > Amarelo 🟡
+    > Verde 🟢
+    > Laranja 🟠
+    > Roxo 🟣
+    > Marrom 🟤
+    > Preto ⚫
+    > Branco ⚪
+
+👉 CSS para cada página;
+👉 Acrescentar hover e tempo de duração ao passar o mouse pela navegação;
+
