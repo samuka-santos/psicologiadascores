@@ -1,5 +1,5 @@
 TODAS AS PÁGINAS
-    > Principal
+    > Principal 🏠
     > Vermelho 🔴
     > Azul 🔵
     > Amarelo 🟡
@@ -9,6 +9,8 @@ TODAS AS PÁGINAS
     > Marrom 🟤
     > Preto ⚫
     > Branco ⚪
+ORDEM ALFABÉTICA
+[Amarelo, Azul, Branco, Laranja, Marrom, Preto, Roxo, Verde, Vermelho]
 
 👉 CSS para cada página;
 👉 Acrescentar hover e tempo de duração ao passar o mouse pela navegação;
