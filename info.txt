@@ -1,14 +1,24 @@
 TODAS AS PÁGINAS
-    > Principal 🏠
-    > Vermelho 🔴
-    > Azul 🔵
-    > Amarelo 🟡
-    > Verde 🟢
-    > Laranja 🟠
-    > Roxo 🟣
-    > Marrom 🟤
-    > Preto ⚫
-    > Branco ⚪
+        [claro]----------------------------------[escuro]
+    🏠 Principal
+    🟡 Amarelo 
+        > #FFFBB5 > #FFF30D > #CFC50A > #6E6802 > #302E02
+    🔵 Azul 
+        > #BFECFF > #17B8FF > #1396CF > #074F6E > #042330
+    ⚪ Branco 
+
+    🟠 Laranja
+        > #FFE3BA > #FFA013 > #CF820E > #6E4404 > #301E03
+    🟤 Marrom 
+        > #695854 > #B03919 > #802A12 > #70220C > #4F1A0B
+    ⚫ Preto 
+
+    🟣 Roxo 
+        > #EBCCFF > #AC24FF > #8A1DCF > #480C6E > #200730
+    🟢 Verde
+        > #BFFFC6 > #16FF2D > #13CF25 > #076E11 > #043009
+    🔴 Vermelho 
+        > #FFB3B3 > #FF0A0A > #CF0808 > #6E0101 > #300202
 ORDEM ALFABÉTICA
 [Amarelo, Azul, Branco, Laranja, Marrom, Preto, Roxo, Verde, Vermelho]
 

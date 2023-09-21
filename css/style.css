@@ -1,2 +1,164 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Donkin';
+    src: url(../font/donkin/Donkin.otf) format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Rounds Neue';
+    src: url('../font/rounds_neue/TT\ Rounds\ Neue\ Trial\ Medium.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root {
+    /* PALETA DE CORES */
+    /* Amarelo */
+    --am1: #FFFBB5; --am2: #FFF30D; --am3: #CFC50A; --am4: #6E6802; --am5: #302E02;
+    /* Azul */
+    --az1: #BFECFF; --az2: #17B8FF; --az3: #1396CF; --az4: #074F6E; --az5: #042330;
+    /* Laranja */
+    --la1: #FFE3BA; --la2: #FFA013; --la3: #CF820E; --la4: #6E4404; --la5: #301E03;
+    /* Marrom */
+    --ma1: #695854; --ma2: #B03919; --ma3: #802A12; --ma4: #70220C; --ma5: #4F1A0B;
+    /* Roxo */
+    --ro1: #EBCCFF; --ro2: #AC24FF; --ro3: #8A1DCF; --ro4: #480C6E; --ro5: #200730; 
+    /* Verde */
+    --vd1: #BFFFC6; --vd2: #16FF2D; --vd3: #13CF25; --vd4: #076E11; --vd5: #043009; 
+    /* Vermelho */
+    --vm1: #FFB3B3; --vm2: #FF0A0A; --vm3: #CF0808; --vm4: #6E0101; --vm5: #300202;
+
+    /* FONTES */
+    --font_Neue: 'Rounds Neue';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+    padding: 18px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39) ;
+}
+nav a { 
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    padding: 10px;
+    font-weight: bolder;
+    transition-duration: 0.2s;
+    border-radius: 100px;
+    line-height:2.5em;
+}
+a.Nho:hover {color: black;}
+a.Nam:hover {background-color: var(--am2); color: black;}
+a.Naz:hover {background-color: var(--az2); color: black;}
+a.Nbr:hover {background-color: rgb(230, 230, 230); color: black;}
+a.Nla:hover {background-color: var(--la2); color: black;}
+a.Nma:hover {background-color: var(--ma2); color: black;}
+a.Npr:hover {background-color: black; color: white;}
+a.Nro:hover {background-color: var(--ro2); color: black;}
+a.Nvd:hover {background-color: var(--vd2); color: black;}
+a.Nvm:hover {background-color: var(--vm2); color: black;}
+
+header {
+    text-align: center;
+    min-height: 150px;
+    padding: 40px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, var(--vm3), var(--am3), var(--vd3), var(--az3), var(--ro3));
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.39) ;
+}
+header h1 {
+    font-family: var(--font_Neue);
+    font-size: 4em;
+    color: white;
+}
+header p {
+    font-family: var(--font_Neue);
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+main {
+    max-width: 1000px;
+    min-width: 320px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39) ;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+main h2 {
+    font-family: var(--font_Neue);
+    margin: 10px;
+    padding: 5px;
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+main img {
+    max-width: 600px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+main ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+article {
+    width: 100%;
+    height: auto;
+}
+article aside {
+    border-radius: 100px;
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+    transition-duration: 0.2s;
+}
+aside.Aam {background-color: var(--am2);}
+    aside.Aam:hover {background-color: var(--am1);}
+aside.Aaz {background-color: var(--az2);}
+    aside.Aaz:hover {background-color: var(--az1);}
+aside.Abr {background-color: rgb(230, 230, 230);}
+    aside.Abr:hover {background-color: white;}
+aside.Ala {background-color: var(--la2);}
+    aside.Ala:hover {background-color: var(--la1);}
+aside.Ama {background-color: var(--ma2);}
+    aside.Ama:hover {background-color: var(--ma1);}
+aside.Apr {background-color: black;}
+    aside.Apr:hover {background-color: rgb(29, 29, 29);}
+aside.Aro {background-color: var(--ro2);}
+    aside.Aro:hover {background-color: var(--ro1);}
+aside.Avd {background-color: var(--vd2);}
+    aside.Avd:hover {background-color: var(--vd1);}
+aside.Avm {background-color: var(--vm2);}
+    aside.Avm:hover {background-color: var(--vm1);}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, var(--vm3), var(--am3), var(--vd3), var(--az3), var(--ro3));
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.39) ;
+}
+footer p {
+    font-weight: bold;
+    color: white;
+}
