@@ -6,7 +6,7 @@ TODAS AS PÁGINAS
     🔵 Azul 
         > #BFECFF > #17B8FF > #1396CF > #074F6E > #042330
     ⚪ Branco 
-
+        > #FFFFFF > #E6E6E6 > #242424
     🟠 Laranja
         > #FFE3BA > #FFA013 > #CF820E > #6E4404 > #301E03
     🟤 Marrom 
