@@ -1,2 +1,2 @@
 # psicologiadascores
- Esse site explicará os conceitos básicos sobre a Psicologia das Cores
+ Utilizando apenas HTML e CSS, eu desenvolvi esse site que abrange o tema Psicologia das Cores.

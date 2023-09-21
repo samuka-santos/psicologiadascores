@@ -78,7 +78,7 @@ header {
 }
 header h1 {
     font-family: var(--font_Neue);
-    font-size: 4em;
+    font-size: 3em;
     color: var(--la5);
 }
 header p {
