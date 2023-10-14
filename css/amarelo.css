@@ -130,3 +130,10 @@ footer p {
     font-weight: bold;
     color: var(--am5);
 }
+footer a {
+    color: var(--am5);
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
